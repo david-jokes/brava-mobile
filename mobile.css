@@ -1,0 +1,136 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Open Sans';
+}
+
+body{
+	background-color: #F8F8F8;
+}
+
+@media only screen and (max-width: 600px){
+
+	body{
+		background-color: #F8F8F8;
+	}
+
+	.main{
+		
+	}
+
+	.logo{
+		font-size: 0.8rem;
+		margin: 20px 0px 20px 0px;
+		display: flex;
+		justify-content: center;
+	}
+
+	.logo span{
+		font-size: 1rem;
+	}
+
+	.logo img{
+		width: .9rem;
+		margin-left: 5px;
+	}
+
+	.intro{
+		background-color: white;
+		padding: 40px;
+		margin: 2rem;
+		border-radius: 1rem;
+	}
+
+	.intro h2{
+		font-size: 0.9rem;
+		text-align: center;
+		margin-bottom: 1rem;
+	}
+
+	.intro p{
+		font-size: 0.7rem;
+		text-align: justify;
+		line-height: 1.5rem;
+	}
+
+	.order{
+		display: flex;
+		justify-content: center;
+		margin-top: 1rem;
+	}
+
+	.order a{
+		background-color: #d40000;
+		text-decoration: none;
+		text-align: center;
+		color: white;
+		font-weight: 400;
+		padding: 7px 15px;
+		border-radius: .4rem;
+		font-size: .7rem;
+	}
+
+	hr{
+		width: 20rem;
+		margin: 2rem auto 2rem auto;
+	}
+
+	.pizza, .pizza-box{
+		background-color: white;
+		padding: 20px;
+		margin: 1rem 2rem;
+		border-radius: 1rem;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	.description{
+		width: 100%;
+	}
+
+	.pizza p{
+		font-size: .8rem;
+	}
+
+	.pizza img{
+		width: 80px;
+		margin: 0px 20px 0px 0px;
+	}
+
+	.pizza h5{
+		border-radius: .4rem;
+		font-weight: 700;
+		margin-top: 10px;
+		padding: .2rem 0rem;
+		font-size: .8rem;
+		text-align: right;
+	}
+
+	.pizza-box .description{
+		font-size: .8rem;
+	}
+
+	.map{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.map img{
+		width: 25rem;
+	}
+
+	.opening{
+		background-color: white;
+		padding: 20px;
+		margin: 2rem;
+		border-radius: 1rem;
+	}
+
+	.opening h2{
+		font-size: 0.9rem;
+		text-align: center;
+	}
+
+}
